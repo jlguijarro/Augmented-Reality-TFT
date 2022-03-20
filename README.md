@@ -32,7 +32,7 @@ En esta rama de desarrollo se incluye una configuración básica para arrancar u
 ### Unity UI
 ---
 
-[Unity UI image](/Assets/gitImages/UnityUI.png)
+![Unity UI image](/Assets/gitImages/UnityUI.png "Unity UI Imagen")
 
 1. Visor de escenas
 2. Escena y componentes
