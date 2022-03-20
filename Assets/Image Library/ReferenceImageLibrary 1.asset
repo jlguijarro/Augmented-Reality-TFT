@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary 1
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5542680604061517367
+  m_GuidHigh: 7737341266625424792
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5606341341040208151
+      m_GuidHigh: 2371773666916645517
+    m_SerializedTextureGuid:
+      m_GuidLow: 11773785716992034592
+      m_GuidHigh: 14893425342185639611
+    m_Size: {x: 0.19, y: 0.19}
+    m_SpecifySize: 1
+    m_Name: Yellow Card 1
+    m_Texture: {fileID: 2800000, guid: bae0c720e3baa364bb8ec6a17013b0ce, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4612879139372383471
+      m_GuidHigh: 7604734309199863213
+    m_SerializedTextureGuid:
+      m_GuidLow: 13908255872316102044
+      m_GuidHigh: 1754743027615523802
+    m_Size: {x: 0.19, y: 0.19}
+    m_SpecifySize: 1
+    m_Name: Green Card 1
+    m_Texture: {fileID: 2800000, guid: daa4559c0d06c104dae31d917c195a18, type: 3}
