@@ -5,6 +5,7 @@ Diseño y desarrollo de un videojuego con realidad aumentada en sistemas Android
 <br/>
 <br/>
 
+<!-- SHOULD I INCLUDE INPUT MANAGER INFO? SCREENSHOT IN DOC -->
  ## v0.1 Configuración básica   
  ---
 
@@ -25,6 +26,8 @@ En esta rama de desarrollo se incluye una configuración básica para arrancar u
 - [ARFoundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html)  
 - [AR Core](https://developers.google.com/ar/develop/unity-arf/features)
     - [AR Core extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions)
+- [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html)
+- [Android Logcat & Android Debug Bridge](https://developer.android.com/studio/command-line/adb?hl=es-419)
 
 <br/>
 <br/>
@@ -48,3 +51,4 @@ Si requieren de una build para testear este proyecto los requisitos necesarios s
 
 joseluisguijarrorubio@alumnos.upm.es
 joseluisguijarrorubio@gmail.com
+
