@@ -23,7 +23,7 @@ MonoBehaviour:
       m_GuidHigh: 14893425342185639611
     m_Size: {x: 0.19, y: 0.19}
     m_SpecifySize: 1
-    m_Name: Yellow Card 1
+    m_Name: YellowCube-Marker
     m_Texture: {fileID: 2800000, guid: bae0c720e3baa364bb8ec6a17013b0ce, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4612879139372383471
@@ -33,5 +33,5 @@ MonoBehaviour:
       m_GuidHigh: 1754743027615523802
     m_Size: {x: 0.19, y: 0.19}
     m_SpecifySize: 1
-    m_Name: Green Card 1
+    m_Name: GreenCube-Marker
     m_Texture: {fileID: 2800000, guid: daa4559c0d06c104dae31d917c195a18, type: 3}
