@@ -6,41 +6,41 @@ Diseño y desarrollo de un videojuego con realidad aumentada en sistemas Android
 <br/>
 
 <!-- SHOULD I INCLUDE INPUT MANAGER INFO? SCREENSHOT IN DOC -->
- ## v0.1 Configuración básica   
+ ## v0.2 Módulo de seguimiento multi-imagen   
  ---
 
-En esta rama de desarrollo se incluye una configuración básica para arrancar un proyecto de realidad aumentada en Unity enfocado a Android. Este archivo detalla y aporta hipervínculos de los distintos paquetes y herramientas necesarios en el proyecto.
+En esta rama de desarrollo se genera un script y configuraciones para que el proyecto sea capaz de detectar múltiples imágenes e instanciar objetos dependiendo de cada una
 
 <br/>
 <br/>
 
-### Herramientas, paquetes Unity y SDKs
+
+
+### Desarrollo del módulo
+---
+En este módulo hemos creado un Script sobre un GameObject desechable a futuro "ImageTrackerLoader", este GameObject nos permite lanzar el script "ImageTrackerTest.cs" una vez se inicia la escena, con este Script conseguimos es cambiar el funcionamiento por defecto del componente AR Image Tracker, el cual instancia un solo prefab al desubrir una imagen detectada. Con nuestro nuevo funcionamiento la aplicación es capaz de distinguir entre diferentes imágenes detectadas con la cámara e instanciar un objeto en la posición de estas imágenes.
+
+FALTA AÑADIR LO DE LAS IMÁGENES, SU PUNTUACIÓN, ETC..
+
+<figure>
+<img src="Assets/gitImages/v0.2-BothPrefabsDetected.jpeg">
+<figcaption align = "center">Both prefabs spawned and Android Logcat Debug shown in screen</figcaption>
+</figure>
+
+
+![Unity UI image](/Assets/gitImages/v0.2-ImageTrackerLoader.png "Unity UI Imagen")
+
+
+<br/>
+<br/>
+
+### Herramientas y componentes añadidos
 ---
 <br/>
 
-- [Unity](https://unity3d.com/es/get-unity/download) : Motor de videojuego multiplataforma
-    - [Android SDK Development Tools](https://docs.unity3d.com/560/Documentation/Manual/android-sdksetup.html) para Unity
-    - [Open JDK](https://docs.unity3d.com/Manual/android-sdksetup.html#:~:text=Customizing%20the%20Android%20SDK%20%26%20NDK%20Tools%20and%20OpenJDK%20installation) para Unity
-
-
-- [ARFoundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html)  
-- [AR Core](https://developers.google.com/ar/develop/unity-arf/features)
-    - [AR Core extensions](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions)
-- [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html)
-- [Android Logcat & Android Debug Bridge](https://developer.android.com/studio/command-line/adb?hl=es-419)
-
-<br/>
-<br/>
-
-### Unity UI
----
-
-![Unity UI image](/Assets/gitImages/UnityUI.png "Unity UI Imagen")
-
-1. Visor de escenas
-2. Escena y componentes
-3. Carpetas del proyecto
-4. Inspector
+- Componente Audio Listener (A futuro)
+- [SerializedDictionaryLite](https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-lite-110992)  
+    - Herramienta que permite serializar diccionarios en la plataforma para un manejo más visual del diccionario
 
 <br/>
 <br/>
