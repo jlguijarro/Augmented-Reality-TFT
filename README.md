@@ -20,7 +20,7 @@ En esta rama de desarrollo se genera un script y configuraciones para que el pro
 ---
 En este módulo hemos creado un Script sobre un GameObject desechable a futuro "ImageTrackerLoader", este GameObject nos permite lanzar el script "ImageTrackerTest.cs" una vez se inicia la escena, con este Script conseguimos es cambiar el funcionamiento por defecto del componente AR Image Tracker, el cual instancia un solo prefab al desubrir una imagen detectada. Con nuestro nuevo funcionamiento la aplicación es capaz de distinguir entre diferentes imágenes detectadas con la cámara e instanciar un objeto en la posición de estas imágenes.
 
-FALTA AÑADIR LO DE LAS IMÁGENES, SU PUNTUACIÓN, ETC..
+FALTA AÑADIR ARUCO, IMAGE MARKER PUNCTUATION, ETC..
 
 <figure>
 <img src="Assets/gitImages/v0.2-BothPrefabsDetected.jpeg">
