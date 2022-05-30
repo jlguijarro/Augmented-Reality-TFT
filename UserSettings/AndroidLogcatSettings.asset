@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fc59751c",
         "name": "com.jlguijarro.ARbase",
-        "processId": 15558,
+        "processId": 12950,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,13 +11,103 @@
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 13825,
+            "processId": 9062,
+            "exited": true
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 10787,
+            "exited": true
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.miui.home",
+            "processId": 10620,
             "exited": false
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 15558,
+            "processId": 12375,
+            "exited": true
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 14431,
+            "exited": true
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 16585,
+            "exited": true
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 17830,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 18437,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 18850,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 19351,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 19938,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 31609,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 3127,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 4409,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 7698,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 8939,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 12950,
             "exited": false
         }
     ],
