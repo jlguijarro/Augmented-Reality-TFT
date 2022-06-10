@@ -37,12 +37,33 @@ public class ImageTrackerTest : MonoBehaviour
         string name = image.referenceImage.name.Split('-')[0];
         if (image.transform.childCount == 0)
         {
-            GameObject cube = Instantiate(colorPrefabs[name]);
+            // GameObject cube = Instantiate(colorPrefabs[name]);
+            GameObject cube = Instantiate(colorPrefabs[checkInstance(name)]);
             cube.transform.SetParent(image.transform, false);
         }
         else
         {
-            Debug.Log($"{name} already instantiated");
+           // Debug.Log($"{name} already instantiated");
         }
+       // Debug.Log(checkInstance(name));
     }
+
+    private string checkInstance(string toCheck)
+    {
+        string checker = DataStorage.checkDictionary(toCheck);
+        //Debug.Log(checker);
+        switch(checker)
+        {
+            case "Unsolved":
+                return toCheck;
+            case "Solved":
+                return "Black";
+            case "Active":
+                return "Black";
+            default:
+                return "Black";
+        }
+        
+    }
+
 }

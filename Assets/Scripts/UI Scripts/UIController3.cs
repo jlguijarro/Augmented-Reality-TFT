@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class UIController3 : MonoBehaviour
 {
     private Button inGame_SettingsButton;
-    private  Button inGame_closeSettingsButton;
+    private Button inGame_closeSettingsButton;
     private Button inGame_openInstructionsButton;
     private Button inGame_closeInstructionsButton;
 

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="quiz-panel" style="flex-grow: 1; height: 387px; width: 219px; display: none;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="quiz-question" style="flex-grow: 1; display: flex;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="quiz-answer1" style="flex-grow: 1;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="quiz-answer2" style="flex-grow: 1;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="quiz-answer3" style="flex-grow: 1;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="quiz-answer4" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
