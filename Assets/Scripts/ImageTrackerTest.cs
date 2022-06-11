@@ -39,6 +39,7 @@ public class ImageTrackerTest : MonoBehaviour
         {
             // GameObject cube = Instantiate(colorPrefabs[name]);
             GameObject cube = Instantiate(colorPrefabs[checkInstance(name)]);
+            Debug.Log(colorPrefabs[checkInstance(name)]);
             cube.transform.SetParent(image.transform, false);
         }
         else
@@ -50,18 +51,16 @@ public class ImageTrackerTest : MonoBehaviour
 
     private string checkInstance(string toCheck)
     {
-        string checker = DataStorage.checkDictionary(toCheck);
+        string checker = LogicEngine.checkDictionary(toCheck);
         //Debug.Log(checker);
         switch(checker)
         {
             case "Unsolved":
-                return toCheck;
+                return toCheck + "Unsolved";
             case "Solved":
-                return "Black";
-            case "Active":
-                return "Black";
+                return toCheck;
             default:
-                return "Black";
+                return toCheck + "Unsolved";
         }
         
     }

@@ -25,9 +25,9 @@ public class UIQuiz1 : MonoBehaviour
 
     public void Awake()
     {
-        // DataStorage.LoadScriptableOBjects();
+        // LogicEngine.LoadScriptableOBjects();
         quiz1_UIDocument = GetComponent<UIDocument>();
-        quizList = DataStorage.getSOList();
+        quizList = LogicEngine.getSOList();
         quiz1 = quizList[0];
         
     }
@@ -64,7 +64,7 @@ public class UIQuiz1 : MonoBehaviour
 
     public void activateClick()
     {
-        DataStorage.LoadScriptableOBjects();
+        LogicEngine.LoadScriptableOBjects();
     }
     void Start()
     {

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class DataStorage
+public static class LogicEngine
 {
     public static List<Quiz> SOList = new List<Quiz>();
     public static Dictionary<string, string> controlQuiz = new Dictionary<string, string>();
     
-    static DataStorage()
+    static LogicEngine()
     {
         LoadScriptableOBjects();
         controlQuiz.Add("YellowCube", "Unsolved");
