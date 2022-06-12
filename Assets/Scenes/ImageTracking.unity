@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 388525037}
   m_Layer: 0
   m_Name: AR Session Origin
-  m_TagString: Untagged
+  m_TagString: ARSessionOrigin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.56e-43, y: -6.67832e-20, z: 6.54e-43, w: 2.5802968e+17}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: -2.3485947e-29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -604,20 +604,20 @@ MonoBehaviour:
     reqReferences: {fileID: 0}
     isExpanded: 1
     _keyValues:
-    - GreenCube
-    - YellowCube
-    - Black
-    - YellowCubeUnsolved
+    - GreenUnsolved
+    - Green
+    - YellowUnsolved
+    - Yellow
     _keys:
-    - GreenCube
-    - YellowCube
-    - Black
-    - YellowCubeUnsolved
+    - GreenUnsolved
+    - Green
+    - YellowUnsolved
+    - Yellow
     _values:
     - {fileID: 1395303071186708520, guid: 703a182af3bd99147b0f01953c4a61ec, type: 3}
-    - {fileID: 3542308768136042099, guid: 6b41e3218d3254142a65079d074ad746, type: 3}
-    - {fileID: 1395303071186708520, guid: 703a182af3bd99147b0f01953c4a61ec, type: 3}
-    - {fileID: 3542308768136042099, guid: 6b41e3218d3254142a65079d074ad746, type: 3}
+    - {fileID: 7414126791596113512, guid: 25078209588776b46a30b3a49ea594e5, type: 3}
+    - {fileID: 5751566783677753136, guid: c8fd14f1071958e44bdc3beca30c458d, type: 3}
+    - {fileID: 9164699466049254129, guid: 888637502cf0a3e418bb096f1041dd4c, type: 3}
   imageManager: {fileID: 388525037}
 --- !u!4 &763072743
 Transform:
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 1580211468}
   - component: {fileID: 1580211470}
   m_Layer: 5
-  m_Name: UIQuiz1
+  m_Name: UIQuiz
   m_TagString: UIQuiz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

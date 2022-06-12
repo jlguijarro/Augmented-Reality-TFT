@@ -3,81 +3,51 @@
     "m_SelectedPackage": {
         "deviceId": "fc59751c",
         "name": "com.jlguijarro.ARbase",
-        "processId": 14118,
+        "processId": 14456,
         "exited": false
     },
     "m_SelectedPriority": 1,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "fc59751c",
-            "name": "com.miui.home",
-            "processId": 24710,
-            "exited": false
-        },
-        {
-            "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 31194,
+            "processId": 643,
             "exited": true
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 10555,
+            "processId": 3666,
             "exited": true
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 16710,
+            "processId": 5488,
             "exited": true
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 17358,
+            "processId": 8114,
             "exited": true
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 4523,
+            "processId": 10561,
             "exited": true
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 6665,
+            "processId": 12311,
             "exited": false
         },
         {
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
-            "processId": 7912,
-            "exited": false
-        },
-        {
-            "deviceId": "fc59751c",
-            "name": "com.jlguijarro.ARbase",
-            "processId": 9178,
-            "exited": false
-        },
-        {
-            "deviceId": "fc59751c",
-            "name": "com.jlguijarro.ARbase",
-            "processId": 10594,
-            "exited": false
-        },
-        {
-            "deviceId": "fc59751c",
-            "name": "com.jlguijarro.ARbase",
-            "processId": 11309,
-            "exited": false
-        },
-        {
-            "deviceId": "fc59751c",
-            "name": "com.jlguijarro.ARbase",
-            "processId": 14118,
+            "processId": 14456,
             "exited": false
         }
     ],

@@ -52,7 +52,7 @@ public class ImageTrackerTest : MonoBehaviour
     private string checkInstance(string toCheck)
     {
         string checker = LogicEngine.checkDictionary(toCheck);
-        //Debug.Log(checker);
+        Debug.Log(checker);
         switch(checker)
         {
             case "Unsolved":

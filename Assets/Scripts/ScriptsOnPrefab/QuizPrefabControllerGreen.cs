@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UIElements;
 
-public class QuizPrefabController : MonoBehaviour
+public class QuizPrefabControllerGreen : MonoBehaviour
 {
     private GameObject UIQuiz;
     private UIDocument UIQuiz_visual;
@@ -13,14 +13,16 @@ public class QuizPrefabController : MonoBehaviour
     private int layerMask;
     private ARRaycastManager arRayCastManager;
     private Vector2 touchPoisitioning = default;
+    private string prefabName;
 
     private void Awake()
     {
         arCamera = Camera.main;
         UIQuiz = GameObject.FindWithTag("UIQuiz");
-        UIQuiz_visual = UIQuiz.GetComponent<UIDocument>();
-        UIQuiz_panel = UIQuiz_visual.rootVisualElement.Q("quiz-panel");
+        // UIQuiz_visual = UIQuiz.GetComponent<UIDocument>();
+        // UIQuiz_panel = UIQuiz_visual.rootVisualElement.Q("quiz-panel");
         layerMask = 1 << LayerMask.NameToLayer("PrefabPlaced");
+        // getProperName();
 
     }
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class QuizPrefabController : MonoBehaviour
 
         // Create some way to handle control and dont allow to loop conditions/bug occur
         rotateQuiz();
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && LogicEngine.IsNotActive())
         {
             Touch touch = Input.GetTouch(0);
             touchPoisitioning = touch.position;
@@ -40,9 +42,11 @@ public class QuizPrefabController : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
                 {
-                    Debug.Log("Object collide: " + hit.collider.name);
-                    Debug.Log("This object name:" + this.name);
-                    UIQuiz_panel.style.display = DisplayStyle.Flex;
+                    Debug.Log("This object name:" + hit.collider.name);
+                    trimThatName(hit.collider.name);
+                    LogicEngine.setActiveQuiz(prefabName);
+                    UIQuiz.GetComponent<UIQuiz>().loadQuiz();
+                    // UIQuiz_panel.style.display = DisplayStyle.Flex;
                 }
             }
         }
@@ -52,5 +56,11 @@ public class QuizPrefabController : MonoBehaviour
     private void rotateQuiz()
     {
         transform.Rotate(0f, 20.4f * Time.deltaTime, 0f);
+    }
+
+    private void trimThatName(string theName)
+    {
+        prefabName = theName.Split('-')[0];
+
     }
 }
