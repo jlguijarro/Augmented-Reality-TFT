@@ -1,0 +1,38 @@
+{
+  "quizzes" : [
+    {
+      "markerId": "Green",
+      "question": "Where was the Mojito cocktail created?",
+      "answers": [
+        "Madagascar",
+        "Syberia",
+        "Cuba",
+        "Buenos Aires"
+      ],
+      "correctAnswer": "Cuba"
+    },
+    {
+      "markerId": "Yellow",
+      "question": "What year was Google images invented?",
+      "answers": [
+        "2004",
+        "2001",
+        "2006",
+        "1999"
+      ],
+      "correctAnswer": "2001"
+    },
+    {
+      "markerId": "Red",
+      "question": "What nut is in the middle of a Ferrero Rocher?",
+      "answers": [
+        "Hazelnut",
+        "Macadamia",
+        "Brazil nut",
+        "pistachio"
+      ],
+      "correctAnswer": "Hazelnut"
+    }
+  ]
+}
+

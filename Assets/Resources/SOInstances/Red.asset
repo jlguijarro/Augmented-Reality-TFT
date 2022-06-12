@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6082e5e49e2de2b429e4d10d1cf05ae1, type: 3}
-  m_Name: quiz1
+  m_Name: Red
   m_EditorClassIdentifier: 
-  question: Answer to this question
+  markerId: Red
+  question: What nut is in the middle of a Ferrero Rocher?
   answers:
-  - Answer 1
-  - Answer 2
-  - Answer 3
-  - Cuarta respuesta
-  correctAnswer: 3
+  - Hazelnut
+  - Macadamia
+  - Brazil nut
+  - Pistachio
+  correctAnswer: Hazelnut

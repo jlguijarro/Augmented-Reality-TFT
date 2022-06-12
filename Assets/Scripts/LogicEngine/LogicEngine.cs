@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class LogicEngine
 {
-    public static List<Quiz> SOList = new List<Quiz>();
+    public static Dictionary<string, Quiz> SODictionary = new Dictionary<string, Quiz>();
     public static Dictionary<string, string> controlQuiz = new Dictionary<string, string>();
     
     static LogicEngine()
@@ -21,13 +21,14 @@ public static class LogicEngine
     {
         foreach (Quiz quiz in Resources.LoadAll<Quiz>("SOInstances"))
         {
-            SOList.Add(quiz);
+            SODictionary.Add(quiz.name, quiz);
+            Debug.Log(SODictionary[quiz.name]);
         }
     }
 
-    public static List<Quiz> getSOList()
+    public static Dictionary<string, Quiz> getSODictionary()
     {
-        return SOList;
+        return SODictionary;
     }
 
     public static string checkDictionary(string keyName)

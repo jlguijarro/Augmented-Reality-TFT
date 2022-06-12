@@ -5,11 +5,14 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Quiz : ScriptableObject
 {
+    [SerializeField] public string markerId;
     [SerializeField] public string question;
     [SerializeField] public string[] answers;
-    [SerializeField] public int correctAnswer;
+    [SerializeField] public string correctAnswer;
 
     public string Question { get { return question; } }
+    public string MarkerId { get { return markerId; } }
+
     public string[] Answers { get { return answers; } }
-    public int CorrectAnswer { get { return correctAnswer; } }
+    public string CorrectAnswer { get { return correctAnswer; } }
 }

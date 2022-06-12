@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fc59751c",
         "name": "com.jlguijarro.ARbase",
-        "processId": 11309,
+        "processId": 14118,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -72,6 +72,12 @@
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
             "processId": 11309,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 14118,
             "exited": false
         }
     ],
