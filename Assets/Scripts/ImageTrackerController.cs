@@ -7,7 +7,7 @@ using UnityEngine.UI;
 [System.Serializable]
 public class colorPrefabDictionary : SerializableDictionaryBase<string, GameObject> { }
 
-public class ImageTrackerTest : MonoBehaviour
+public class ImageTrackerController : MonoBehaviour
 {
     [SerializeField] colorPrefabDictionary colorPrefabs;
 
