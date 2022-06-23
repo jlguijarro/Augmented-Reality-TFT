@@ -110,14 +110,4 @@ public class UIQuiz : MonoBehaviour
         LogicEngine.deactivate();
         hideQuizUI();
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

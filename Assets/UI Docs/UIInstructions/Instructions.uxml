@@ -1,6 +1,25 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="instructions-bg" style="opacity: 1; background-color: rgb(149, 96, 96); flex-grow: 2; flex-shrink: 0; display: flex; visibility: visible; overflow: visible; position: relative;">
-        <ui:Label text="INSTRUCCIONEEES" display-tooltip-when-elided="true" style="flex-direction: column; align-items: auto; justify-content: space-around; flex-wrap: nowrap; position: absolute; top: 184px; left: 56px;" />
-        <ui:Button text="X" display-tooltip-when-elided="true" name="close-instructions" style="flex-direction: row-reverse; flex-shrink: 0; width: 0; height: auto; position: absolute; top: 4px; left: 200px;" />
+    <ui:VisualElement name="instructions-bg" style="opacity: 1; background-color: rgba(255, 255, 255, 0.24); flex-grow: 2; flex-shrink: 0; display: flex; visibility: visible; overflow: visible; position: relative; height: 427px; left: auto; top: auto; right: auto; bottom: auto;">
+        <ui:VisualElement name="nicepanel" style="flex-grow: 2; margin-left: 40px; margin-right: 40px; margin-top: 40px; margin-bottom: 40px; background-color: rgba(255, 255, 255, 0.45); border-left-width: 1.5px; border-right-width: 1.5px; border-top-width: 1.5px; border-bottom-width: 1.5px; border-top-left-radius: 30px; border-bottom-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="scroller" vertical-page-size="-1" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="flex-grow: 3; flex-wrap: nowrap; align-items: auto; justify-content: flex-start; height: 384px;">
+                <ui:VisualElement name="tip1" style="flex-direction: row; flex-grow: 1; flex-shrink: 0; margin-top: 20%; flex-wrap: nowrap;">
+                    <ui:VisualElement name="scaninstructions" style="background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/scanInstructions.png?fileID=2800000&amp;guid=2855bfa8208c344418211275471ee289&amp;type=3#scanInstructions&apos;); width: 92px; height: 100px;" />
+                    <ui:Label text="After launching game scan the environment&apos;s markers with your device" display-tooltip-when-elided="true" style="flex-grow: 0; -unity-text-align: middle-center; white-space: normal; font-size: 8px; width: 59px; height: 113px; background-color: rgba(0, 0, 0, 0); color: rgb(67, 59, 33);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="tip2" style="flex-direction: row; flex-shrink: 0; flex-grow: 1;">
+                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/TriggerMarkerInstructions.png?fileID=2800000&amp;guid=1d96ff9e47d95464096cb8b28e62d0c9&amp;type=3#TriggerMarkerInstructions&apos;); height: 90px; width: 88px;" />
+                    <ui:Label text="You will notice a three dimensional model appears when scanning a marker" display-tooltip-when-elided="true" style="flex-grow: 0; -unity-text-align: middle-center; white-space: normal; font-size: 8px; width: 59px; height: 113px; color: rgb(68, 59, 34);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="tip3" style="flex-direction: row; flex-shrink: 0; flex-grow: 1; height: 111px;">
+                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/tapInstruction.png?fileID=2800000&amp;guid=de4b6a855a5989d44abd81d8894ca695&amp;type=3#tapInstruction&apos;); height: 102px; width: 92px;" />
+                    <ui:Label text="Tap the three dimensional model to launch the marker&apos;s corresponding quiz" display-tooltip-when-elided="true" style="flex-grow: 0; -unity-text-align: middle-center; white-space: normal; font-size: 8px; width: 59px; height: 113px; color: rgb(68, 59, 34);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="tip4" style="flex-direction: row; flex-shrink: 0; flex-grow: 1;">
+                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/qmark.png?fileID=2800000&amp;guid=12fe26c20962c8749860f766533a36a2&amp;type=3#qmark&apos;); height: 104px; width: 50px; padding-left: 10px; margin-left: 20px; margin-right: 20px;" />
+                    <ui:Label text="When available a quiz&apos;s 3D model will appear with its marker color, and when completed it will turn gray" display-tooltip-when-elided="true" style="flex-grow: 0; -unity-text-align: middle-center; white-space: normal; font-size: 8px; width: 59px; height: 113px; color: rgb(68, 59, 34);" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:Button display-tooltip-when-elided="true" name="close-instructions" style="flex-direction: row-reverse; flex-shrink: 0; width: 23px; height: 23px; position: absolute; top: 2%; left: 85%; background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/closeButton.png?fileID=2800000&amp;guid=759fc8964a6613e4399f5cf78f41a2b7&amp;type=3#closeButton&apos;); background-color: rgba(88, 88, 88, 0); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
     </ui:VisualElement>
 </ui:UXML>

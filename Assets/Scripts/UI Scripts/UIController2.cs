@@ -56,15 +56,15 @@ public class UIController2 : MonoBehaviour
     {
 
         // Debug.Log(menuInstructions);
-        Debug.Log(mainMenuBackground);
+        //Debug.Log(mainMenuBackground);
         menuInstructions.style.display = DisplayStyle.Flex;
-        // mainMenuBackground.style.display = DisplayStyle.None;
+        mainMenuBackground.style.display = DisplayStyle.None;
 
     }
     void closeInstructionsPanel()
     {
         menuInstructions.style.display = DisplayStyle.None;
-        // mainMenuBackground.style.display = DisplayStyle.Flex;
+        mainMenuBackground.style.display = DisplayStyle.Flex;
 
     }
 
