@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 
 public static class LogicEngine
@@ -9,9 +10,11 @@ public static class LogicEngine
     public static Dictionary<string, string> controlQuiz = new Dictionary<string, string>();
     public static bool isActive;
     public static string activeQuiz;
+    public static int currentScore;
 
     static LogicEngine()
     {
+        currentScore = 0;
         LoadScriptableOBjects();
         controlQuiz.Add("Yellow", "Unsolved");
         controlQuiz.Add("Blue", "Unsolved");
@@ -74,6 +77,8 @@ public static class LogicEngine
         controlQuiz[activeQuiz] = "Solved";
         Debug.Log(activeQuiz + " : " + controlQuiz[activeQuiz]);
         destroyTrackableInstances();
+        currentScore++;
+
     }
     public static void destroyTrackableInstances()
     {
@@ -82,5 +87,21 @@ public static class LogicEngine
         {
             GameObject.Destroy(toDestroy.transform.GetChild(0).gameObject);
         }
+    }
+    public static void checkCurrentScore()
+    {
+        if (currentScore >= 3)
+        {
+            endGameScene();
+        }
+    }
+
+    public static int getCurrentScore()
+    {
+        return currentScore;
+    }
+    public static void endGameScene()
+    {
+        SceneManager.LoadScene("EndGameScene");
     }
 }

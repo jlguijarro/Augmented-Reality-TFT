@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fc59751c",
         "name": "com.jlguijarro.ARbase",
-        "processId": 31994,
+        "processId": 15688,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -120,6 +120,30 @@
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
             "processId": 31994,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 7774,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 14281,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 15034,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARbase",
+            "processId": 15688,
             "exited": false
         }
     ],

@@ -1,10 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Settings" src="project://database/Assets/UI%20Docs/GameUI/Settings.uxml?fileID=9197481963319205126&amp;guid=e0037e7c774cebf49a9b7e58a83bf374&amp;type=3#Settings" />
+    <ui:Template name="UIPause" src="project://database/Assets/UI%20Docs/GameUI/UIPause/HUD.uxml?fileID=9197481963319205126&amp;guid=fb48c4e32169199448e6da42238fec94&amp;type=3#HUD" />
     <ui:Template name="Instructions" src="project://database/Assets/UI%20Docs/UIInstructions/Instructions.uxml?fileID=9197481963319205126&amp;guid=6a187afbf186754459b070f74b03bd80&amp;type=3#Instructions" />
-    <ui:VisualElement name="HUD" style="height: 43px; flex-direction: row; display: none;">
-        <ui:ProgressBar title="Progress" name="hud_Progress" high-value="4" style="width: 58px;" />
-        <ui:Button text="Settings&#10;" display-tooltip-when-elided="true" name="hud_Settings" style="position: relative; top: 168px; left: 80px;" />
-    </ui:VisualElement>
-    <ui:Instance template="Settings" name="Settings" style="display: none; position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
-    <ui:Instance template="Instructions" name="Instructions" style="position: absolute; display: none; left: 0; top: 0; right: 0; bottom: 0;" />
+    <ui:Instance template="Settings" name="Settings" style="flex-grow: 2; display: none;" />
+    <ui:Instance template="UIPause" name="HUD" style="flex-grow: 2; display: none;" />
+    <ui:Instance template="Instructions" name="Instructions" style="flex-grow: 2; display: none;" />
 </ui:UXML>

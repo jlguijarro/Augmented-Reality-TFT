@@ -1,7 +1,11 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="SettingsBox" style="flex-grow: 1; height: 384px; width: 221px; background-color: rgba(171, 73, 73, 0.82); justify-content: space-around; align-items: center;">
-        <ui:Label text="SETTINGS MENU" display-tooltip-when-elided="true" style="justify-content: center; align-items: center;" />
-        <ui:Button text="INSTRUCTIONS" display-tooltip-when-elided="true" name="settings_instructions" style="align-items: center;" />
-        <ui:Button text="X" display-tooltip-when-elided="true" name="settings_close" style="position: absolute; top: 0; right: 0;" />
+    <Style src="project://database/Assets/UI%20Docs/UIStartMenu/mainMenuBotton.uss?fileID=7433441132597879392&amp;guid=a5cab47988c126149a7a20873c052b00&amp;type=3#mainMenuBotton" />
+    <ui:VisualElement name="SettingsBox" style="flex-grow: 2; height: auto; width: auto; background-color: rgba(236, 217, 217, 0.11); justify-content: space-around; align-items: center;">
+        <ui:VisualElement name="Container" style="height: auto; width: auto; align-items: center; justify-content: center; flex-direction: column; background-color: rgba(0, 0, 0, 0); flex-grow: 0; max-width: initial; max-height: initial; flex-wrap: nowrap; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 30px; border-bottom-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+            <ui:Button text="High Scores" display-tooltip-when-elided="true" name="highScores-button" class="mainMenuButton" style="margin-top: 40px;" />
+            <ui:Button text="Instructions" display-tooltip-when-elided="true" name="instructions-button" class="mainMenuButton" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="quit-button" class="mainMenuButton" style="margin-bottom: 40px;" />
+        </ui:VisualElement>
+        <ui:Button display-tooltip-when-elided="true" name="goBack-button" style="position: absolute; top: 2px; left: 80%; background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/goBackButton.png?fileID=2800000&amp;guid=2ddd09f85c2b1394fbbf4e377c62101d&amp;type=3#goBackButton&apos;); height: 30px; width: 30px; background-color: rgba(88, 88, 88, 0);" />
     </ui:VisualElement>
 </ui:UXML>

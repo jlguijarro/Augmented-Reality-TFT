@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UIController3 : MonoBehaviour
 {
-    private Button inGame_SettingsButton;
+    private Button inGame_openSettingsButton;
     private Button inGame_closeSettingsButton;
     private Button inGame_openInstructionsButton;
     private Button inGame_closeInstructionsButton;
@@ -17,9 +17,21 @@ public class UIController3 : MonoBehaviour
     private VisualElement inGame_Hud;
     private VisualElement inGame_Instructions;
 
+    private TextElement HudScore;
+
     private void Awake()
     {
         inGame_mainUIDocument = GetComponent<UIDocument>();
+    }
+
+    private void Start()
+    {
+        inGame_Hud.style.display = DisplayStyle.Flex;
+    }
+
+    public void Update()
+    {
+        HudScore.text = retrieveScore();
     }
 
     private void OnEnable()
@@ -30,15 +42,17 @@ public class UIController3 : MonoBehaviour
         inGame_menuSettings = root.Q("Settings");
         inGame_Instructions = root.Q("Instructions");
 
-
-        inGame_SettingsButton = root.Q<Button>("hud_Settings");
-        inGame_SettingsButton.clicked += inGame_openSettingsPanel;
+        HudScore = inGame_Hud.Q<TextElement>("score-indicator");
 
 
-        inGame_closeSettingsButton = inGame_menuSettings.Q<Button>("settings_close");
+        inGame_openSettingsButton = root.Q<Button>("pause-button");
+        inGame_openSettingsButton.clicked += inGame_openSettingsPanel;
+
+        inGame_closeSettingsButton = inGame_menuSettings.Q<Button>("goBack-button");
         inGame_closeSettingsButton.clicked += inGame_closeSettingsPanel;
 
-        inGame_openInstructionsButton = inGame_menuSettings.Q<Button>("settings_instructions");
+
+        inGame_openInstructionsButton = inGame_menuSettings.Q<Button>("instructions-button");
         inGame_openInstructionsButton.clicked += inGame_openInstructions;
 
         inGame_closeInstructionsButton = inGame_Instructions.Q<Button>("close-instructions");
@@ -49,20 +63,29 @@ public class UIController3 : MonoBehaviour
     void inGame_openSettingsPanel()
     {
         inGame_menuSettings.style.display = DisplayStyle.Flex;
-        // inGame_Hud.style.display = DisplayStyle.None;
+        inGame_Hud.style.display = DisplayStyle.None;
 
     }
     void inGame_closeSettingsPanel()
     {
         inGame_menuSettings.style.display = DisplayStyle.None;
-        // inGame_Hud.style.display = DisplayStyle.Flex;
+        inGame_Hud.style.display = DisplayStyle.Flex;
     }
     void inGame_openInstructions()
     {
         inGame_Instructions.style.display = DisplayStyle.Flex;
+        inGame_menuSettings.style.display = DisplayStyle.None;
+
     }
     void inGame_closeInstructions()
     {
         inGame_Instructions.style.display = DisplayStyle.None;
+        inGame_menuSettings.style.display = DisplayStyle.Flex;
+    }
+
+    string retrieveScore()
+    {
+
+        return LogicEngine.getCurrentScore().ToString() + " / 3";
     }
 }

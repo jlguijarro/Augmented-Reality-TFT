@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HUD" style="flex-grow: 2;">
+        <ui:VisualElement name="score-bg" style="position: absolute; height: 39px; width: 81px; top: 5%; left: 3%; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/CurvedBloq.png?fileID=2800000&amp;guid=d7f86d08d29984e4a9aeb1f38225e8ce&amp;type=3#CurvedBloq&apos;); -unity-background-image-tint-color: rgb(137, 134, 134); text-shadow: 0 0 0 rgb(255, 255, 255); color: rgb(255, 255, 255);">
+            <ui:Label display-tooltip-when-elided="true" name="score-indicator" style="color: rgba(255, 255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:Button text="&#10;" display-tooltip-when-elided="true" name="pause-button" style="position: absolute; top: 5%; left: 80%; background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/Pause%20Button.png?fileID=2800000&amp;guid=d862999735e439342aa128e663a3efb3&amp;type=3#Pause Button&apos;); background-color: rgba(88, 88, 88, 0); height: 27px; width: 28px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
