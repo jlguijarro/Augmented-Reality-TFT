@@ -10,10 +10,14 @@ public class UIController2 : MonoBehaviour
     public Button highScoresButton;
     public Button instructionsButton;
     public Button quitButton;
+    public Button closeHsButton;
 
     private UIDocument mainUIDocument;
     private VisualElement menuInstructions;
     private VisualElement mainMenuBackground;
+    private VisualElement hsPanel;
+
+
 
     private void Awake()
     {
@@ -26,13 +30,15 @@ public class UIController2 : MonoBehaviour
 
         mainMenuBackground = root.Q("Background");
         menuInstructions = root.Q("Instructions");
+        hsPanel = root.Q("HighScoresSM");
+
 
         newGameButton = root.Q<Button>("newGame-button");
         newGameButton.clicked += StartButtonPressed; // En C# el operador += específica el método que se debe llmar en respuesta a un evento
 
 
         highScoresButton = root.Q<Button>("highScores-button");
-        highScoresButton.clicked += hScoresButtonPressed;
+        highScoresButton.clicked += openHsPanel;
 
 
         instructionsButton = root.Q<Button>("instructions-button");
@@ -41,10 +47,13 @@ public class UIController2 : MonoBehaviour
 
         quitButton = root.Q<Button>("quit-button");
         quitButton.clicked += quitButtonPressed;
-        
+
+        closeHsButton = hsPanel.Q<Button>("close-button");
+        closeHsButton.clicked += closeHsPanel;
 
         Button closeInstructionsButton = menuInstructions.Q<Button>("close-instructions");
         closeInstructionsButton.clicked += closeInstructionsPanel;
+
 
 
         
@@ -68,16 +77,25 @@ public class UIController2 : MonoBehaviour
 
     }
 
+    void openHsPanel()
+    {
+        hsPanel.style.display = DisplayStyle.Flex;
+        mainMenuBackground.style.display = DisplayStyle.None;
+
+    }
+    void closeHsPanel()
+    {
+        hsPanel.style.display = DisplayStyle.None;
+        mainMenuBackground.style.display = DisplayStyle.Flex;
+
+    }
+
     void StartButtonPressed()
     {
         SceneManager.LoadScene("ImageTracking");
  
     }
 
-    void hScoresButtonPressed()
-    {
-        Debug.Log("High Score Button Pressed");
-    }
     void instructButtonPressed()
     {
         Debug.Log("INSTRUCTION BUTTON PRESSED");

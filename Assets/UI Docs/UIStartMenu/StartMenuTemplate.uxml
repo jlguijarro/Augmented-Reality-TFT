@@ -1,5 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" ml="UnityEditor.XR.MagicLeap" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Instructions" src="project://database/Assets/UI%20Docs/UIInstructions/Instructions.uxml?fileID=9197481963319205126&amp;guid=6a187afbf186754459b070f74b03bd80&amp;type=3#Instructions" />
+    <ui:Template name="HighScoresSM" src="project://database/Assets/UI%20Docs/HighScores/HighScoresSM.uxml?fileID=9197481963319205126&amp;guid=5605880531ea2704d9afd176fe1bfc1b&amp;type=3#HighScoresSM" />
     <Style src="project://database/Assets/UI%20Docs/UIStartMenu/mainMenuBotton.uss?fileID=7433441132597879392&amp;guid=a5cab47988c126149a7a20873c052b00&amp;type=3#mainMenuBotton" />
     <ui:VisualElement name="Background" style="position: relative; height: auto; top: auto; width: auto; left: auto; flex-grow: 2; flex-shrink: 0; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0); flex-direction: column; display: flex; -unity-background-scale-mode: stretch-to-fill; max-width: initial; max-height: initial; min-width: initial; min-height: initial; opacity: 1; -unity-background-image-tint-color: rgb(255, 255, 255);">
         <ui:VisualElement name="Container" style="height: auto; width: auto; align-items: center; justify-content: center; flex-direction: column; background-color: rgba(0, 0, 0, 0); flex-grow: 0; max-width: initial; max-height: initial; flex-wrap: nowrap; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 30px; border-bottom-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
@@ -10,4 +11,5 @@
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:Instance template="Instructions" name="Instructions" style="display: none; position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+    <ui:Instance template="HighScoresSM" name="HighScoresSM" style="flex-grow: 2; display: none; position: absolute; max-width: 100%; max-height: 100%; min-width: 100%; min-height: 100%;" />
 </ui:UXML>

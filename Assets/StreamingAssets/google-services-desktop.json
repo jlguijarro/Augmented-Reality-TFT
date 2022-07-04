@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65559450615",
+    "project_id": "ar-quiz-8417f",
+    "storage_bucket": "ar-quiz-8417f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65559450615:android:286d42383ae34222aad4f2",
+        "android_client_info": {
+          "package_name": "com.jlguijarro.ARQuiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65559450615-dk2jftbemkqckgljn8bdiq4f4vqubbi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzgKz_ZWtet22nPNlpYztEnyMlZG_22fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65559450615-dk2jftbemkqckgljn8bdiq4f4vqubbi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

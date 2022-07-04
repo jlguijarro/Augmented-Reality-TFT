@@ -77,7 +77,8 @@ public static class LogicEngine
         controlQuiz[activeQuiz] = "Solved";
         Debug.Log(activeQuiz + " : " + controlQuiz[activeQuiz]);
         destroyTrackableInstances();
-        currentScore++;
+        ++currentScore;
+        checkCurrentScore();
 
     }
     public static void destroyTrackableInstances()
@@ -90,6 +91,7 @@ public static class LogicEngine
     }
     public static void checkCurrentScore()
     {
+        Debug.Log(currentScore);
         if (currentScore >= 3)
         {
             endGameScene();

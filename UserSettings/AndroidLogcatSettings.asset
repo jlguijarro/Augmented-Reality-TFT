@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "fc59751c",
     "m_SelectedPackage": {
         "deviceId": "fc59751c",
-        "name": "com.jlguijarro.ARbase",
-        "processId": 15688,
+        "name": "com.jlguijarro.ARQuiz",
+        "processId": 9364,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -144,6 +144,114 @@
             "deviceId": "fc59751c",
             "name": "com.jlguijarro.ARbase",
             "processId": 15688,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 7617,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 10931,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 14240,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 15016,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 18851,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 25777,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 26902,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 27689,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 28596,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 29336,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 31180,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 32679,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 2161,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 3979,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 6111,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 7176,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 8496,
+            "exited": false
+        },
+        {
+            "deviceId": "fc59751c",
+            "name": "com.jlguijarro.ARQuiz",
+            "processId": 9364,
             "exited": false
         }
     ],

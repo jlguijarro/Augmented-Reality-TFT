@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ImageTracking.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/EndGameScene.unity
+    guid: 1ce8b9aeff865c24487c9d3fb7d90bcc
+  - enabled: 1
+    path: Assets/Scenes/ReStartGameScene.unity
+    guid: 55f47b1692bbe504c9f758c583f49fce
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

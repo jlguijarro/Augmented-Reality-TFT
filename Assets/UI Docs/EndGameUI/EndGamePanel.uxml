@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HighScoresEnd" src="project://database/Assets/UI%20Docs/HighScores/HighScoresEnd.uxml?fileID=9197481963319205126&amp;guid=e81f29ec1f1d21e43beddc0198dad30c&amp;type=3#HighScoresEnd" />
+    <ui:VisualElement name="endgame-panel" style="flex-grow: 2; background-color: rgba(219, 199, 199, 0); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);">
+        <ui:VisualElement name="endgame-subpanel" style="flex-grow: 2; margin-left: 30px; margin-right: 30px; margin-top: 30px; margin-bottom: 30px; background-color: rgb(0, 0, 0); padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; flex-wrap: nowrap; flex-direction: column; justify-content: flex-start; align-items: center;">
+            <ui:Label text="YOU WON!" display-tooltip-when-elided="true" name="notification" enable-rich-text="true" style="flex-grow: 0; color: rgb(255, 255, 255); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; -unity-text-align: middle-center; height: 49px; width: 129px; background-color: rgb(0, 0, 0); margin-bottom: 80%; justify-content: flex-start;" />
+            <ui:Label text="INTRODUCE YOUR NAME AND REGISTER YOUR SCORE" display-tooltip-when-elided="true" name="endgame-instructions" style="white-space: normal; font-size: 11px; -unity-text-align: middle-center; margin-bottom: 10%; color: rgb(255, 255, 255);" />
+            <ui:TextField picking-mode="Ignore" is-delayed="false" name="input-name" max-length="8" readonly="false" mask-character="filler text" usage-hints="None" password="false" focusable="true" style="flex-grow: 0; height: 34px; width: 121px; background-color: rgb(255, 255, 255); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-bottom: 10px;" />
+            <ui:Button text="Send!" display-tooltip-when-elided="true" name="send-score" style="background-color: rgb(176, 147, 0); height: 24px; width: 60px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="HighScoresEnd" name="HighScoresEnd-Panel" style="position: absolute; flex-grow: 10; max-width: 100%; max-height: 100%; min-width: 100%; min-height: 100%; display: none;" />
+</ui:UXML>

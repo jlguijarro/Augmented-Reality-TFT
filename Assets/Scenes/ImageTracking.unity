@@ -608,15 +608,21 @@ MonoBehaviour:
     - Green
     - YellowUnsolved
     - Yellow
+    - RedUnsolved
+    - Red
     _keys:
     - GreenUnsolved
     - Green
     - YellowUnsolved
     - Yellow
+    - RedUnsolved
+    - Red
     _values:
     - {fileID: 1395303071186708520, guid: 703a182af3bd99147b0f01953c4a61ec, type: 3}
     - {fileID: 3207243729654847200, guid: c5b939fb685970d45b7d10dcf711fd5b, type: 3}
     - {fileID: 5751566783677753136, guid: c8fd14f1071958e44bdc3beca30c458d, type: 3}
+    - {fileID: 3207243729654847200, guid: c5b939fb685970d45b7d10dcf711fd5b, type: 3}
+    - {fileID: 5665060202182280555, guid: c9c585820564d574ebd636ea5be679ca, type: 3}
     - {fileID: 3207243729654847200, guid: c5b939fb685970d45b7d10dcf711fd5b, type: 3}
   imageManager: {fileID: 388525037}
 --- !u!4 &763072743

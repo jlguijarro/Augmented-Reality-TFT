@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 11773785716992034592
       m_GuidHigh: 14893425342185639611
-    m_Size: {x: 0.19, y: 0.19}
+    m_Size: {x: 0.16, y: 0.16}
     m_SpecifySize: 1
     m_Name: Yellow-Marker
     m_Texture: {fileID: 2800000, guid: bae0c720e3baa364bb8ec6a17013b0ce, type: 3}
@@ -33,7 +33,17 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 13908255872316102044
       m_GuidHigh: 1754743027615523802
-    m_Size: {x: 0.19, y: 0.19}
+    m_Size: {x: 0.16, y: 0.16}
     m_SpecifySize: 1
     m_Name: Green-Marker
     m_Texture: {fileID: 2800000, guid: daa4559c0d06c104dae31d917c195a18, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5107790438737033231
+      m_GuidHigh: 16334028987113388468
+    m_SerializedTextureGuid:
+      m_GuidLow: 2852005122051520952
+      m_GuidHigh: 18030478791545143272
+    m_Size: {x: 0.16, y: 0.16}
+    m_SpecifySize: 1
+    m_Name: Red-Marker
+    m_Texture: {fileID: 0}

@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button display-tooltip-when-elided="true" name="close-button" style="position: absolute; left: 87%; top: 1%; background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/closeButton.png?fileID=2800000&amp;guid=759fc8964a6613e4399f5cf78f41a2b7&amp;type=3#closeButton&apos;); background-color: rgba(88, 88, 88, 0); height: 19px; width: 18px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 7px; border-bottom-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; display: flex; overflow: visible;" />
+    <ui:VisualElement name="hs-father" style="flex-grow: 10; color: rgb(255, 255, 255); margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; background-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="high-scores" style="flex-grow: 2; justify-content: flex-start;">
+            <ui:VisualElement name="title" style="justify-content: flex-start; align-items: flex-start; flex-grow: 1; flex-direction: row; flex-wrap: nowrap; padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI%20Docs/UIAssets/HighScoresCup.png?fileID=2800000&amp;guid=c417728dc15675840839d8703ed03947&amp;type=3#HighScoresCup&apos;); width: 56px; height: 46px;" />
+                <ui:Label text="HIGH SCORES" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-center; height: 46px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 0;">
+            <ui:Label text="Usuario1" display-tooltip-when-elided="true" style="margin-right: 10%;" />
+            <ui:Label text="390" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 0;">
+            <ui:Label text="Usuario2" display-tooltip-when-elided="true" style="margin-right: 10%;" />
+            <ui:Label text="350" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 0;">
+            <ui:Label text="Usuario4" display-tooltip-when-elided="true" style="margin-right: 10%;" />
+            <ui:Label text="320" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 0;">
+            <ui:Label text="ExpoUser" display-tooltip-when-elided="true" style="margin-right: 10%;" />
+            <ui:Label text="315" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 0;">
+            <ui:Label text="JoseTest" display-tooltip-when-elided="true" style="margin-right: 10%;" />
+            <ui:Label text="300" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: center; flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 50px;">
+            <ui:Label text="Test   # 4    " display-tooltip-when-elided="false" style="margin-right: 10%;" />
+            <ui:Label text="300" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
