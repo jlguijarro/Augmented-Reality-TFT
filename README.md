@@ -6,7 +6,7 @@ Diseño y desarrollo de un videojuego con realidad aumentada en sistemas Android
 <br/>
 
 <!-- SHOULD I INCLUDE INPUT MANAGER INFO? SCREENSHOT IN DOC -->
- ## v0.1 Configuración básica   
+ ## v0.1 UX RESEARCH AND IMAGE TRACKER MANAGER MODIFIED   
  ---
 
 En esta rama de desarrollo se incluye una configuración básica para arrancar un proyecto de realidad aumentada en Unity enfocado a Android. Este archivo detalla y aporta hipervínculos de los distintos paquetes y herramientas necesarios en el proyecto.
