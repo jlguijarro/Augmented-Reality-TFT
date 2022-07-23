@@ -54,12 +54,45 @@ The version control is done through branches wich record the different developme
 - [v0.5](https://github.com/jlguijarro/Augmented-Reality-Unity-App/tree/AR/v0.5) : Firebase and API connections
 
 
+<br/>
+
+## Application Logic
+
+<br/>
+
+The Application logic information and working mechanisms can be appreciated in the following diagram:
+
+![Application Logic Diagram](/mdImages/AppLogicDiagram.png "Application Logic Diagram")
+
+
+<br/>
+<br/>
 
 
 ## UX Research
 
-Si requieren de una build para testear este proyecto los requisitos necesarios son disponer de un sistema Android que posea al menos la versión Android 7.0 Nougat. Debido al tamaño de la .apk me es imposible subirla a GitHub pero pueden pedirme una copia contactándome a alguno de los siguientes emails:
+<br/>
+
+
+The UX Research was made using Google Forms, results were the following:
+
+![UX Research](/mdImages/UXResearch.png "UX Research")
+
+<br/>
+<br/>
+
+## UI Design
+
+<br/>
+
+The UI design was made using Figma:
+
+![UI Design](/mdImages/UIDesign.png "UI Design")
+
+
+<br/>
+
+In case you want an .apk build to test and play around with the application you need an Android System with at least Android 7.0 Nougat version. Due to the .apk build size is impossible for me to update it to Github, anyways you can e-mail me for an .apk build to one of the followings emails:
 
 joseluisguijarrorubio@alumnos.upm.es
 joseluisguijarrorubio@gmail.com
-
